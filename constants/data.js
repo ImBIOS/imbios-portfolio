@@ -47,21 +47,21 @@ const userData = {
   experience: [
     {
       title: "Webinar Speaker",
-      company: "Dicoding | Cloud and Backend",
+      company: "Dicoding | Cloud and Backend, Remote",
       year: "June 2021",
       companyLink: "https://juarakoding.com",
       desc: "I got an oportunity to speak in front of Educators (Vocational Teachers and Lecturers) to talk about AWS Cloud and Backend.",
     },
     {
       title: "Frontend Developer",
-      company: "Juara Koding",
+      company: "Juara Koding, Remote",
       year: "Apr 2021",
       companyLink: "https://juarakoding.com",
       desc: "I love to share my knowledge and finding with people. It is the way I make impact to people.",
     },
     {
       title: "School Android App Province Champion",
-      company: "Pustekkom | Coding Edusiber",
+      company: "Pustekkom | Coding Edusiber, Semarang",
       year: "Nov 2019",
       companyLink: "https://juarakoding.com",
       desc: "I code an app and win.",
@@ -79,6 +79,13 @@ const userData = {
       year: "Aug 2019",
       companyLink: "https://sman1gemolong.sch.id",
       desc: "Owl at night. Web, Game, Flash, Android, almost everything, right?",
+    },
+    {
+      title: "National Web Design Champion",
+      company: "OlympicAD 2017, Lampung.",
+      year: "Oct 2017",
+      companyLink: "https://sman1gemolong.sch.id",
+      desc: "IPM stands for Ikatan Pelajar Muhammadiyah, and that's it.",
     },
     {
       title: "Chairman of Student Council",
