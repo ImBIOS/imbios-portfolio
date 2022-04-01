@@ -5,7 +5,7 @@ const userData = {
   avatarUrl: "/avatar.jpeg",
   email: "imamuzzaki@gmail.com",
   phone: "+62 85156451441",
-  address: "Bogor, West Java, Indonesia.",
+  address: "Sragen, Central Java, Indonesia.",
   projects: [
     {
       title: "Juara Koding",
@@ -41,8 +41,8 @@ const userData = {
       `After learning HTML and struggling with CSS and Javascript, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
       `I've been coding in React, Node.js, Express, PostgreSQL, MySQL, Bootstrap, Tailwind and C# programming language. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer. (LOL)`,
     ],
-    currentProject: "Juara Koding",
-    currentProjectUrl: "https://juarakoding.com",
+    currentProject: "Hypotherapist Web",
+    currentProjectUrl: "#",
   },
   experience: [
     {
@@ -99,10 +99,10 @@ const userData = {
     "https://excampur-my.sharepoint.com/:b:/g/personal/imbios_excampur_onmicrosoft_com/EV_WYLYqy01FinyMfxe1i3cBSmeqVsjRpcJ9e7WZhggUNg?e=pF9x4c",
   socialLinks: {
     instagram: "https://instagram.com/abusalam16",
-    twitter: "https://twitter.com/ImamuzzakiS",
+    twitter: "https://twitter.com/imamdev_",
     linkedin: "https://linkedin.com/in/imamuzzaki-abu-salam",
     github: "https://github.com/ImBIOS",
-    facebook: "https://facebook.com/imamuzzaki.abusalam",
+    facebook: "https://facebook.com/ImamDevEN",
   },
 };
 
