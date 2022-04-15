@@ -39,9 +39,8 @@ export default function AboutMe() {
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  mail
-                </a>{" "}
-                and I'll get back. I swear.
+                  mail.
+                </a>
               </p>
             </div>
             <div className="mt-8">

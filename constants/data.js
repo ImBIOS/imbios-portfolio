@@ -3,7 +3,7 @@ const userData = {
   name: "Imamuzzaki Abu Salam",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.jpeg",
-  email: "imamuzzaki@gmail.com",
+  email: "hi@imam.dev",
   phone: "+62 85156451441",
   address: "Sragen, Central Java, Indonesia.",
   projects: [
