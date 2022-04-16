@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import userData from "@constants/data";
 
 export default function Contact() {
+  const [fullname, setFullname] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (data) => {
+    console.log(data);
+  };
+
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
@@ -141,7 +150,10 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="form rounded-lg bg-white p-4 flex flex-col">
+          <form
+            onSubmit={handleSubmit}
+            className="form rounded-lg bg-white p-4 flex flex-col"
+          >
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name
@@ -150,6 +162,10 @@ export default function Contact() {
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
+              value={fullname}
+              onChange={(e) => {
+                setFullname(e.target.value);
+              }}
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
               Email
@@ -158,6 +174,26 @@ export default function Contact() {
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
+              value={email}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
+            />
+            <label
+              htmlFor="subject"
+              className="text-sm text-gray-600 mx-4 mt-4"
+            >
+              {" "}
+              Subject / Title
+            </label>
+            <input
+              type="text"
+              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              name="subject"
+              value={subject}
+              onChange={(e) => {
+                setSubject(e.target.value);
+              }}
             />
             <label
               htmlFor="message"
@@ -170,7 +206,11 @@ export default function Contact() {
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
-            ></textarea>
+              value={message}
+              onChange={(e) => {
+                setMessage(e.target.value);
+              }}
+            />
             <button
               type="submit"
               className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"

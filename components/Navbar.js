@@ -111,7 +111,8 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/contact">
+          {/* Hide contact because of it is not usable */}
+          {/* <Link href="/contact">
             <a
               className={`text-base  ${
                 router.asPath === "/contact"
@@ -136,7 +137,7 @@ export default function Navbar() {
                 </svg>
               )}
             </a>
-          </Link>
+          </Link> */}
         </div>
 
         <div className="space-x-4 flex flex-row items-center">
