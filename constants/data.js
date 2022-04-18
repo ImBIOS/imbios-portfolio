@@ -60,7 +60,7 @@ const userData = {
       company: "OSIS SMAN 1 Gemolong, Sragen.",
       year: "Oct 2019",
       companyLink: "https://sman1gemolong.sch.id",
-      desc: "Being a volunteer in my scool student council. Fun and learn a lot.",
+      desc: "Being a volunteer in my school student council. Fun and learn a lot.",
     },
     {
       title: "Freelance",
