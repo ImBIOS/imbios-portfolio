@@ -111,6 +111,13 @@ export default function Navbar() {
               )}
             </a>
           </Link>
+          <a
+            href="https://blog.imam.dev/"
+            target="_blank"
+            className="text-base text-gray-600 dark:text-gray-300 font-normal"
+          >
+            Blog
+          </a>
           {/* Hide contact because of it is not usable */}
           {/* <Link href="/contact">
             <a
@@ -236,11 +243,11 @@ export default function Navbar() {
             Experience
           </a>
         </Link>
-        <Link href="/contact">
+        {/* <Link href="/contact">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Contact
           </a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
