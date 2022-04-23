@@ -3,15 +3,10 @@ const userData = {
   name: "Imamuzzaki Abu Salam",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.jpeg",
-  email: "imamuzzaki@gmail.com",
+  email: "hi@imam.dev",
   phone: "+62 85156451441",
-  address: "Bogor, West Java, Indonesia.",
+  address: "Sragen, Central Java, Indonesia.",
   projects: [
-    {
-      title: "Juara Koding",
-      link: "https://juarakoding.com",
-      imgUrl: "/jk.png",
-    },
     {
       title: "Hujian",
       link: "https://imbios.github.io/Hujian",
@@ -41,29 +36,23 @@ const userData = {
       `After learning HTML and struggling with CSS and Javascript, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
       `I've been coding in React, Node.js, Express, PostgreSQL, MySQL, Bootstrap, Tailwind and C# programming language. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer. (LOL)`,
     ],
-    currentProject: "Juara Koding",
-    currentProjectUrl: "https://juarakoding.com",
+    currentProject: "Hypotherapist Web",
+    currentProjectUrl: "#",
   },
   experience: [
     {
       title: "Webinar Speaker",
-      company: "Dicoding | Cloud and Backend",
+      company: "Dicoding | Cloud and Backend, Remote",
       year: "June 2021",
-      companyLink: "https://juarakoding.com",
+      companyLink: "https://dicoding.id/Webinar1BackendPemula",
       desc: "I got an oportunity to speak in front of Educators (Vocational Teachers and Lecturers) to talk about AWS Cloud and Backend.",
     },
     {
-      title: "Frontend Developer",
-      company: "Juara Koding",
-      year: "Apr 2021",
-      companyLink: "https://juarakoding.com",
-      desc: "I love to share my knowledge and finding with people. It is the way I make impact to people.",
-    },
-    {
       title: "School Android App Province Champion",
-      company: "Pustekkom | Coding Edusiber",
+      company: "Pustekkom | Coding Edusiber, Semarang",
       year: "Nov 2019",
-      companyLink: "https://juarakoding.com",
+      companyLink:
+        "https://twitter.com/pusdatin_dikbud/status/1182546230137606145",
       desc: "I code an app and win.",
     },
     {
@@ -71,20 +60,20 @@ const userData = {
       company: "OSIS SMAN 1 Gemolong, Sragen.",
       year: "Oct 2019",
       companyLink: "https://sman1gemolong.sch.id",
-      desc: "Being a volunteer in my scool student council. Fun and learn a lot.",
+      desc: "Being a volunteer in my school student council. Fun and learn a lot.",
     },
     {
       title: "Freelance",
       company: "Remote",
       year: "Aug 2019",
-      companyLink: "https://sman1gemolong.sch.id",
+      companyLink: "https://imam.dev",
       desc: "Owl at night. Web, Game, Flash, Android, almost everything, right?",
     },
     {
       title: "Chairman of Student Council",
       company: "IPM SMP Al-Qolam Muh. Gemolong, Sragen.",
       year: "Sep 2017",
-      companyLink: "https://sman1gemolong.sch.id",
+      companyLink: "https://smpalqolamgemolong.sch.id",
       desc: "IPM stands for Ikatan Pelajar Muhammadiyah, and that's it.",
     },
   ],
@@ -92,10 +81,10 @@ const userData = {
     "https://excampur-my.sharepoint.com/:b:/g/personal/imbios_excampur_onmicrosoft_com/EV_WYLYqy01FinyMfxe1i3cBSmeqVsjRpcJ9e7WZhggUNg?e=pF9x4c",
   socialLinks: {
     instagram: "https://instagram.com/abusalam16",
-    twitter: "https://twitter.com/ImamuzzakiS",
+    twitter: "https://twitter.com/imamdev_",
     linkedin: "https://linkedin.com/in/imamuzzaki-abu-salam",
     github: "https://github.com/ImBIOS",
-    facebook: "https://facebook.com/imamuzzaki.abusalam",
+    facebook: "https://facebook.com/ImamDevEN",
   },
 };
 

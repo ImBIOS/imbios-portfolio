@@ -11,17 +11,18 @@ export default function Footer() {
             <p>&copy; Imamuzzaki Abu Salam. All Rights Reserved.</p>
           </div>
           <div>
-            <p>
-              Developed by
+            {/* Support me by keeping this in the footer, please. :) */}
+            {/* <p>
+              Template by
               <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
                 <a
                   className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
-                  href="https://imbios.github.io"
+                  href="https://manuarora.in"
                 >
-                  Imamuzzaki Abu Salam
+                  Manu Arora
                 </a>
               </div>
-            </p>
+            </p> */}
           </div>
           <div className="space-x-4 flex flex-row items-center">
             <a

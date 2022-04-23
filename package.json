@@ -5,19 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "lint": "next lint",
+    "be": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "color": "3.2.1",
-    "next": "10.x",
+    "next": "^12.1.5",
     "next-themes": "0.0.15",
-    "react": "17.x",
-    "react-dom": "17.x",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-rough-notation": "^1.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.7"
   }

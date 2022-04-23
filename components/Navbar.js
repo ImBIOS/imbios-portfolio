@@ -6,7 +6,7 @@ import userData from "@constants/data";
 
 export default function Navbar() {
   const router = useRouter();
-  console.log(router.asPath);
+  // console.log(router.asPath);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -111,7 +111,16 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/contact">
+          <a
+            href="https://blog.imam.dev/"
+            target="_blank"
+            className="text-base text-gray-600 dark:text-gray-300 font-normal"
+            rel="noreferrer"
+          >
+            Blog
+          </a>
+          {/* Hide contact because of it is not usable */}
+          {/* <Link href="/contact">
             <a
               className={`text-base  ${
                 router.asPath === "/contact"
@@ -136,7 +145,7 @@ export default function Navbar() {
                 </svg>
               )}
             </a>
-          </Link>
+          </Link> */}
         </div>
 
         <div className="space-x-4 flex flex-row items-center">
@@ -235,11 +244,11 @@ export default function Navbar() {
             Experience
           </a>
         </Link>
-        <Link href="/contact">
+        {/* <Link href="/contact">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Contact
           </a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

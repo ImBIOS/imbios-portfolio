@@ -39,9 +39,8 @@ export default function AboutMe() {
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  mail
-                </a>{" "}
-                and I'll get back. I swear.
+                  mail.
+                </a>
               </p>
             </div>
             <div className="mt-8">
@@ -49,8 +48,8 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
-                check my{" "}
+                I&apos;m looking for a job currently, If you see me as a good
+                fit, check my{" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
@@ -58,7 +57,7 @@ export default function AboutMe() {
                 >
                   CV
                 </a>{" "}
-                and I'd love to work for you.
+                and I&apos;d love to work for you.
               </p>
             </div>
             {/* Social Links */}
