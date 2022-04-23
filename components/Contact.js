@@ -8,7 +8,7 @@ export default function Contact() {
   const [message, setMessage] = useState("");
 
   const handleSubmit = (data) => {
-    console.log(data);
+    // console.log(data);
   };
 
   return (
