@@ -115,6 +115,7 @@ export default function Navbar() {
             href="https://blog.imam.dev/"
             target="_blank"
             className="text-base text-gray-600 dark:text-gray-300 font-normal"
+            rel="noreferrer"
           >
             Blog
           </a>
