@@ -36,8 +36,9 @@ const userData = {
       `After learning HTML and struggling with CSS and Javascript, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
       `I've been coding in React, Node.js, Express, PostgreSQL, MySQL, Bootstrap, Tailwind and C# programming language. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer. (LOL)`,
     ],
-    currentProject: "Hypotherapist Web",
-    currentProjectUrl: "#",
+    currentProject: "Youtube Videos",
+    currentProjectUrl:
+      "https://www.youtube.com/channel/UCHFKcUMHr10TSLXMa2fGhdQ",
   },
   experience: [
     {

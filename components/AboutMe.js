@@ -1,5 +1,36 @@
 import React from "react";
 import userData from "@constants/data";
+import Image from "next/image";
+
+const githubTopicImage = (topicName) =>
+  `https://raw.githubusercontent.com/github/explore/08e8077e6cd7375c007c6fd6ac8cced5d7738494/topics/${topicName}/${topicName}.png`;
+
+const techStackItem = (techStackName) => {
+  return { name: techStackName, image: githubTopicImage(techStackName) };
+};
+
+const techStacks = [
+  techStackItem("nextjs"),
+  techStackItem("react"),
+  techStackItem("nodejs"),
+  techStackItem("express"),
+  techStackItem("postgresql"),
+  techStackItem("mysql"),
+  techStackItem("tailwind"),
+  techStackItem("bootstrap"),
+  techStackItem("flutter"),
+  techStackItem("android"),
+  techStackItem("typescript"),
+  techStackItem("javascript"),
+  techStackItem("kotlin"),
+  techStackItem("laravel"),
+  techStackItem("python"),
+  techStackItem("firebase"),
+  techStackItem("redis"),
+  techStackItem("google-cloud"),
+  techStackItem("aws"),
+  techStackItem("supabase"),
+];
 
 export default function AboutMe() {
   return (
@@ -142,54 +173,17 @@ export default function AboutMe() {
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redis/redis.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+              {techStacks.map((tech, idx) => (
+                <span key={idx} className="h-20 w-20 mx-4 my-4">
+                  <Image
+                    className="rounded-md"
+                    width={80}
+                    height={80}
+                    alt={tech.name}
+                    src={tech.image}
+                  />
+                </span>
+              ))}
             </div>
           </div>
         </div>
