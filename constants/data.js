@@ -8,6 +8,11 @@ const userData = {
   address: "Sragen, Central Java, Indonesia.",
   projects: [
     {
+      title: "Juara Koding",
+      link: "https://juarakoding.com",
+      imgUrl: "/jk.png",
+    },
+    {
       title: "Hujian",
       link: "https://imbios.github.io/Hujian",
       imgUrl: "/hujian.png",
@@ -42,11 +47,32 @@ const userData = {
   },
   experience: [
     {
+      title: "Part-time Frontend Developer",
+      company: "Juara Koding, Remote",
+      year: "Dec '21 - Apr '22",
+      companyLink: "https://kubus.in",
+      desc: "Tech Stacks: React.js, Next.js, Tailwind CSS",
+    },
+    {
+      title: "Internship Frontend Developer",
+      company: "Cah Koding, Remote",
+      year: "Oct '21 - Mar '22",
+      companyLink: "https://cahkoding.com",
+      desc: "Tech Stacks: Vue.js, Quasar, Tailwind CSS",
+    },
+    {
       title: "Webinar Speaker",
       company: "Dicoding | Cloud and Backend, Remote",
       year: "June 2021",
       companyLink: "https://dicoding.id/Webinar1BackendPemula",
       desc: "I got an oportunity to speak in front of Educators (Vocational Teachers and Lecturers) to talk about AWS Cloud and Backend.",
+    },
+    {
+      title: "Freelance Frontend Developer",
+      company: "Juara Koding, Remote",
+      year: "Apr - Aug 2021",
+      companyLink: "https://juarakoding.com",
+      desc: "I love to share my knowledge and finding with people. It is the way I make impact to people.",
     },
     {
       title: "School Android App Province Champion",
@@ -69,6 +95,13 @@ const userData = {
       year: "Aug 2019",
       companyLink: "https://imam.dev",
       desc: "Owl at night. Web, Game, Flash, Android, almost everything, right?",
+    },
+    {
+      title: "National Web Design Champion",
+      company: "OlympicAD 2017, Lampung.",
+      year: "Oct 2017",
+      companyLink: "https://sman1gemolong.sch.id",
+      desc: "IPM stands for Ikatan Pelajar Muhammadiyah, and that's it.",
     },
     {
       title: "Chairman of Student Council",
