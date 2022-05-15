@@ -13,6 +13,46 @@ const userData = {
       imgUrl: "/jk.png",
     },
     {
+      title: "Sekulapp",
+      link: "https://sekulapp.vercel.app",
+      imgUrl: "/sekulapp.png",
+    },
+    {
+      title: "Startup Helper",
+      link: "https://startup-helper-imbios.vercel.app",
+      imgUrl: "/gaweyuk.png",
+    },
+    {
+      title: "Saluni",
+      link: "https://saluni.vercel.app",
+      imgUrl: "/saluni.png",
+    },
+    {
+      title: "Angkatan 4 Events",
+      link: "https://angkatan4-events.vercel.app",
+      imgUrl: "/event.png",
+    },
+    {
+      title: "Kajian Segar",
+      link: "https://kajiansegar.vercel.app",
+      imgUrl: "/kajian.png",
+    },
+    {
+      title: "Go Telegram Bot",
+      link: "https://go-telegram-bot-imam.vercel.app",
+      imgUrl: "/go-bot.png",
+    },
+    {
+      title: "StoreGG",
+      link: "https://storegg-imbios.vercel.app",
+      imgUrl: "/storegg.png",
+    },
+    {
+      title: "Dev Chat",
+      link: "https://dev-chat-imbios.vercel.app",
+      imgUrl: "/dev-chat.png",
+    },
+    {
       title: "Hujian",
       link: "https://imbios.github.io/Hujian",
       imgUrl: "/hujian.png",
@@ -23,13 +63,13 @@ const userData = {
       imgUrl: "/soto-malam.png",
     },
     {
-      title: "Election App",
-      link: "https://maktab-election-deprecated.vercel.app/",
-      imgUrl: "/election.png",
+      title: "IDN Votes",
+      link: "https://idn-votes.vercel.app/vote",
+      imgUrl: "/elect.png",
     },
     {
       title: "Gubuk Imam",
-      link: "https://gubuk-imam.vercel.app/",
+      link: "https://gubuk-imam.vercel.app",
       imgUrl: "/gubuk-imam.png",
     },
   ],
