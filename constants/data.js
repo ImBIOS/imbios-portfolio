@@ -2,7 +2,7 @@ const userData = {
   githubUsername: 'ImBIOS',
   name: 'Imamuzzaki Abu Salam',
   designation: 'Full-Stack Developer',
-  avatarUrl: '/avatar.jpeg',
+  avatarUrl: '/avatar.jpg',
   email: 'hi@imam.dev',
   phone: '+62 85156451441',
   address: 'Sragen, Central Java, Indonesia.',

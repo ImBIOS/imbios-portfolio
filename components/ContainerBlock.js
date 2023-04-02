@@ -1,17 +1,18 @@
-import React from "react";
-import Head from "next/head";
-import { useRouter } from "next/router";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import React from 'react';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Imamuzzaki Abu Salam - Developer, Writer, Creator and YouTuber",
+    title:
+      'Imamuzzaki Abu Salam - Developer, Writer, Creator and YouTuber',
     description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
-    image: "/avatar.png",
-    type: "website",
+    image: '/avatar.jpg',
+    type: 'website',
     ...customMeta,
   };
   return (
@@ -28,9 +29,16 @@ export default function ContainerBlock({ children, ...customMeta }) {
           rel="canonical"
           href={`https://imbios.github.io${router.asPath}`}
         />
-        <link rel="icon shortcut" href="./logo512.png" title="ImBIOS" />
+        <link
+          rel="icon shortcut"
+          href="./logo512.png"
+          title="ImBIOS"
+        />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Imamuzzaki Abu Salam" />
+        <meta
+          property="og:site_name"
+          content="Imamuzzaki Abu Salam"
+        />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
@@ -40,7 +48,10 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
         {meta.date && (
-          <meta property="article:published_time" content={meta.date} />
+          <meta
+            property="article:published_time"
+            content={meta.date}
+          />
         )}
       </Head>
       <main className="dark:bg-gray-800 w-full">
