@@ -9,7 +9,7 @@ const userData = {
   projects: [
     {
       title: 'Gitmemoji',
-      link: 'https://gitmoji.imam.dev',
+      link: 'https://gitmemoji.imam.dev',
       imgUrl: '/gitmemoji.png',
     },
     {
